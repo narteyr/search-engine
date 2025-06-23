@@ -1,0 +1,35 @@
+bad query: cannot have two adjacent 'or' in query
+bad query: cannot have two adjacent 'or' in query
+Query: mama 
+Matches 1 documents (ranked):
+score	1 doc	41: http://cs50tse.cs.dartmouth.edu/tse/toscrape/catalogue/category/books/food-and-drink_33/index.html
+
+Query: readers and what or adults or reagan university 
+No documents match.
+counter is null 
+Query: theriomaniac 
+No documents match.
+counter is null 
+Query: fellowships minutemen 
+Matches 0 documents (ranked):
+
+Query: bedfored brilliant 
+Matches 0 documents (ranked):
+
+Query: vacation groups gun and team gravelike 
+No documents match.
+counter is null 
+Query: cleanse or laryngopharyngeal or asianic or big or nonahydrate 
+No documents match.
+counter is null 
+Query: needing and maude 
+Matches 1 documents (ranked):
+score	1 doc	2: http://cs50tse.cs.dartmouth.edu/tse/toscrape/catalogue/page-2.html
+
+Query: silique and face blessed sit 
+Matches 0 documents (ranked):
+
+Query: assez national 
+Matches 0 documents (ranked):
+
+

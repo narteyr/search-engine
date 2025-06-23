@@ -1,0 +1,42 @@
+---------------------------
+Testing: Invalid Arguments
+---------------------------
+----------------------------
+Testing: No Arguments
+----------------------------
+Usage: ./querier <pageDirectory> <indexFileName>
+----------------------------
+Testing: Invalid Crawler Directory
+Error: ../data/invalid_dir/.crawler does not exist
+----------------------------
+----------------------------
+Testing: Invalid Index File
+Error: ../data/index_files/test.index/invalid_file does not exist
+----------------------------
+----------------------------
+Testing: Valid Arguments
+
+Arguments are valid.
+----------------------------
+----------------------------
+Testing: Bad Character in Query
+----------------------------
+Error: Bad character '-' in query.
+Error: Bad character '"' in query.
+Query: computer-science
+No documents match.
+counter is null 
+Query: computer science
+No documents match.
+counter is null 
+Query: dartmouth or college
+No documents match.
+counter is null 
+Query: computer and science or mathematics or physics
+No documents match.
+counter is null 
+Query: "psychology" and "biology"
+No documents match.
+counter is null 
+
+----------------------------
